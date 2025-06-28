@@ -1,0 +1,383 @@
+{
+  "home": {
+      "Clara": {
+        "name": "Clara",
+        "sprite": "Clara",
+        "title": "TA",
+        "openingMessage": "Bereit für ein deutsches Sprachduell? Zeig, was du gelernt hast!",
+        "level": 45,
+        "arena": "grass",
+        "damageToEnemy": 33,
+        "damageToPlayer": 33,
+        "losingMessage": "Nicht schlecht, aber du musst noch mehr Deutsch üben!",
+        "winningMessage": "Unglaublich! Deine Deutschkenntnisse sind beeindruckend!",
+        "onWin": {
+          "name": "npc-battle-end",
+          "action": {
+            "name": "Clara",
+            "level": "home"
+          }
+        },
+        "onLoss": {
+          "name": null,
+          "action": null
+        },
+        "questions": null,
+        "questionDifficulties" : ["easy"]
+      },
+      "Dane": {
+        "name": "Dane",
+        "sprite": "Dane",
+        "title": "DEVELOPER",
+        "openingMessage": "Nur wer Deutsch spricht, kann diesen Kampf gewinnen! Viel Glück!",
+        "level": 45,
+        "arena": "grass",
+        "damageToEnemy": 33,
+        "damageToPlayer": 33,
+        "losingMessage": "Du hast dich tapfer geschlagen. Weiter lernen!",
+        "winningMessage": "Du hast mich mit deinem Deutsch besiegt!",
+        "onWin": {
+          "name": "npc-battle-end",
+          "action": {
+            "name": "Dane",
+            "level": "home"
+          }
+        },
+        "onLoss": {
+          "name": null,
+          "action": null
+        },
+        "questions": null,
+        "questionDifficulties": ["easy"]
+      }
+    },
+  "gymArena1PreBattle": {
+    "Brett": {
+      "name": "Brett",
+      "sprite": "Brett",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Willkommen zur ersten Deutsch-Prüfung! Bist du bereit?",
+      "level": 45,
+      "arena": "ice",
+      "damageToEnemy": 25,
+      "damageToPlayer": 20,
+      "losingMessage": "Komm wieder, wenn dein Deutsch stärker ist!",
+      "winningMessage": "Sehr gut! Du bist bereit für die nächste Herausforderung!",
+      "onWin": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "gymArena1PostBattle",
+          "playerPosition": {
+            "x": 6,
+            "y": 3
+          },
+          "playerPositionOnDOM": [
+            288,
+            192
+          ],
+          "backgroundPositionOnDOM": [
+            96,
+            0
+          ],
+          "playerFacingPosition": "up"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [],
+      "questionDifficulties": ["easy"]
+    }
+  },
+  "gymArena2PreBattle": {
+    "Cody": {
+      "name": "Cody",
+      "sprite": "Cody",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Zeig mir, wie gut du Deutsch verstehst! Viel Erfolg!",
+      "level": 45,
+      "arena": "grass",
+      "damageToEnemy": 20,
+      "damageToPlayer": 25,
+      "losingMessage": "Noch ein bisschen üben, dann schaffst du es!",
+      "winningMessage": "Fantastisch! Du bist ein Deutsch-Profi!",
+      "onWin": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "gymArena2PostBattle",
+          "playerPosition": {
+            "x": 6,
+            "y": 3
+          },
+          "playerPositionOnDOM": [
+            288,
+            192
+          ],
+          "backgroundPositionOnDOM": [
+            96,
+            0
+          ],
+          "playerFacingPosition": "up"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [
+      ],
+      "questionDifficulties": ["medium", "hard"]
+    }
+  },
+  "gymArena3PreBattle": {
+    "Scott": {
+      "name": "Scott",
+      "sprite": "Scott",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Kannst du die schwierigeren Deutschfragen meistern? Los geht's!",
+      "level": 45,
+      "arena": "psychic",
+      "damageToEnemy": 20,
+      "damageToPlayer": 25,
+      "losingMessage": "Nicht aufgeben! Deutsch lernen braucht Zeit.",
+      "winningMessage": "Du hast bewiesen, dass du Deutsch kannst!",
+      "onWin": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "gymArena3PostBattle",
+          "playerPosition": {
+            "x": 6,
+            "y": 3
+          },
+          "playerPositionOnDOM": [
+            288,
+            192
+          ],
+          "backgroundPositionOnDOM": [
+            96,
+            0
+          ],
+          "playerFacingPosition": "up"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [
+      ],
+      "questionDifficulties": ["medium", "hard"]
+    }
+  },
+  "gymArena4PreBattle": {
+    "Tim H": {
+      "name": "Tim H",
+      "sprite": "TimH",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Jetzt wird es ernst: Deutsch für Fortgeschrittene!",
+      "level": 45,
+      "arena": "dirt",
+      "damageToEnemy": 20,
+      "damageToPlayer": 25,
+      "losingMessage": "Du bist fast am Ziel. Weiter so!",
+      "winningMessage": "Du hast das Deutsch-Battle gemeistert!",
+      "onWin": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "gymArena4PostBattle",
+          "playerPosition": {
+            "x": 6,
+            "y": 5
+          },
+          "playerPositionOnDOM": [
+            288,
+            192
+          ],
+          "backgroundPositionOnDOM": [
+            96,
+            -128
+          ],
+          "playerFacingPosition": "up"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [
+      ],
+      "questionDifficulties": ["medium", "hard"]
+    }
+  },
+  "gymArena4PostBattle": {
+    "transition": {
+      "name": "scene-transition-start",
+      "action": {
+        "level": "gymArena5PreBattle",
+        "playerPosition": { "x": 6, "y": 4 },
+        "playerPositionOnDOM": [320, 192],
+        "backgroundPositionOnDOM": [128, -64],
+        "playerFacingPosition": "up"
+      }
+    }
+  },
+  "gymArena5PreBattle": {
+    "Min": {
+      "name": "Min",
+      "sprite": "Min",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Nur die Besten bestehen diese Deutschprüfung! Viel Glück!",
+      "level": 45,
+      "arena": "normal",
+      "damageToEnemy": 17,
+      "damageToPlayer": 33,
+      "losingMessage": "Das war knapp! Übe noch ein wenig Deutsch.",
+      "winningMessage": "Du bist ein wahrer Deutsch-Champion!",
+      "onWin": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "gymArena5PostBattle",
+          "playerPosition": {
+            "x": 6,
+            "y": 4
+          },
+          "playerPositionOnDOM": [
+            320,
+            192
+          ],
+          "backgroundPositionOnDOM": [
+            128,
+            -64
+          ],
+          "playerFacingPosition": "up"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [
+      ],
+      "questionDifficulties": ["medium", "hard"]
+    }
+  },
+  "gymArena6": {
+    "Shashank": {
+      "name": "Shashank",
+      "sprite": "Shashank",
+      "title": "INSTRUCTOR",
+      "openingMessage": "Das letzte Duell! Zeig deine besten Deutschkenntnisse!",
+      "level": 45,
+      "arena": "normal",
+      "damageToEnemy": 17,
+      "damageToPlayer": 33,
+      "losingMessage": "Du hast viel gelernt. Versuch es noch einmal!",
+      "winningMessage": "Du hast alle Deutsch-Battles gewonnen! Glückwunsch!",
+      "onWin": {
+        "name": "npc-battle-end",
+        "action": {
+          "name": "Shashank",
+          "level": "gymArena6"
+        }
+      },
+      "onLoss": {
+        "name": "scene-transition-start",
+        "action": {
+          "level": "home",
+          "playerPosition": {
+            "x": 11,
+            "y": 15
+          },
+          "playerPositionOnDOM": [
+            288,
+            64
+          ],
+          "backgroundPositionOnDOM": [
+            -64,
+            -896
+          ],
+          "playerFacingPosition": "down"
+        }
+      },
+      "questions": [
+      ],
+      "questionDifficulties": ["medium", "hard"]
+    }
+  }
+}

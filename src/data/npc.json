@@ -1,0 +1,223 @@
+{
+  "home": [
+    {
+      "name": "Kevin",
+      "path": "./assets/images/players/npc-nerd.png",
+      "startingPosition": {
+        "x": 21,
+        "y": 6
+      },
+      "positionOnDOM": [672, 384],
+      "facingPosition": "up"
+    },
+    {
+      "name": "Clara",
+      "path": "./assets/images/players/npc-sarah.png",
+      "startingPosition": {
+        "x": 16,
+        "y": 11
+      },
+      "positionOnDOM": [
+        512,
+        704
+      ],
+      "facingPosition": "right"
+    },
+    {
+      "name": "Dane",
+      "path": "./assets/images/players/npc-dane.png",
+      "startingPosition": {
+        "x": 34,
+        "y": 3
+      },
+      "positionOnDOM": [
+        1088,
+        192
+      ],
+      "facingPosition": "right"
+    }
+  ],
+  "pokemonCenter": [
+    {
+      "name": "Monique",
+      "path": "./assets/images/players/npc-blonde-girl.png",
+      "startingPosition": {
+        "x": 7,
+        "y": 1
+      },
+      "positionOnDOM": [
+        320,
+        128
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymEntrance": [
+    {
+      "name": "Cassandra",
+      "path": "./assets/images/players/npc-brunette-girl.png",
+      "startingPosition": {
+        "x": 0,
+        "y": 3
+      },
+      "positionOnDOM": [-64, -128],
+      "facingPosition": "right"
+    }
+  ],
+  "gymArena1PreBattle": [
+    {
+      "name": "Brett",
+      "path": "./assets/images/players/npc-nerd.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [288, 64],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena2PreBattle": [
+    {
+      "name": "Cody",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [288, 64],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena3PreBattle": [
+    {
+      "name": "Scott",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [
+        288,
+        64
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena4PreBattle": [
+    {
+      "name": "Tim H",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 4
+      },
+      "positionOnDOM": [
+        -256,
+        64
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena5PreBattle": [
+    {
+      "name": "Min",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 3
+      },
+      "positionOnDOM": [
+        320,
+        -192
+      ],
+      "facingPosition": "down"
+    }
+  ],
+    "gymArena1PostBattle": [
+    {
+      "name": "Brett",
+      "path": "./assets/images/players/npc-nerd.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [288, 128],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena2PostBattle": [
+    {
+      "name": "Cody",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [
+        288,
+        128
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena3PostBattle": [
+    {
+      "name": "Scott",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 2
+      },
+      "positionOnDOM": [
+        288,
+        128
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena4PostBattle": [
+    {
+      "name": "Tim H",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 4
+      },
+      "positionOnDOM": [
+        288,
+        128
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena5PostBattle": [
+    {
+      "name": "Min",
+      "path": "./assets/images/players/npc-professor.png",
+      "startingPosition": {
+        "x": 6,
+        "y": 3
+      },
+      "positionOnDOM": [
+        320,
+        128
+      ],
+      "facingPosition": "down"
+    }
+  ],
+  "gymArena6": [
+    {
+      "name": "Shashank",
+      "path": "./assets/images/players/npc-red.png",
+      "startingPosition": {
+        "x": 5,
+        "y": 2
+      },
+      "positionOnDOM": [
+        320,
+        -64
+      ],
+      "facingPosition": "up"
+    }
+  ]
+}

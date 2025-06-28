@@ -1,0 +1,216 @@
+{
+  "home": {
+    "Kevin": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Pssst, they're learning German in the classroom right now!" },
+        { "isTrigger": false, "text": "The teacher is so motivating, it's really fun to listen." },
+        { "isTrigger": false, "text": "I hope I learn enough German to challenge the language masters!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    },
+    "Clara": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Hello!" },
+        { "isTrigger": false, "text": "I'm a tutor for German learners." },
+        { "isTrigger": false, "text": "The students are practicing vocabulary, so I'm taking a break." },
+        { "isTrigger": false, "text": "Are you learning German too?" },
+        { "isTrigger": false, "text": "Let's see how good you are!" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Clara" } }
+      ],
+      "postBattle": [
+        { "isTrigger": false, "text": "Wow, you have a good feel for languages!" },
+        { "isTrigger": false, "text": "..." },
+        { "isTrigger": false, "text": "That was an exciting duel." },
+        { "isTrigger": false, "text": "You should visit the language center, it's just ahead on the left." },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ]
+    },
+    "Dane": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Oh no, why is this German expression so hard?" },
+        { "isTrigger": false, "text": "Hello!" },
+        { "isTrigger": false, "text": "What am I doing? I'm practicing German phrases." },
+        { "isTrigger": false, "text": "Maybe you can help me with some language questions?" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Dane" } }
+      ],
+      "postBattle": [
+        { "isTrigger": false, "text": "Thank you, that really helped!" },
+        { "isTrigger": false, "text": "I'll stay here a bit longer and keep practicing." },
+        { "isTrigger": false, "text": "I heard there are real pros at the language center." },
+        { "isTrigger": false, "text": "See you soon!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ]
+    }
+  },
+  "pokemonCenter": {
+    "Monique": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Hello! I help German learners recover." },
+        { "isTrigger": false, "text": "Many come here after a tough language duel." },
+        { "isTrigger": false, "text": "Good luck with your learning!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymEntrance": {
+    "Cassandra": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Hello! Welcome to the German Language Center." },
+        { "isTrigger": false, "text": "Here you can challenge the language masters and show your skills." },
+        { "isTrigger": false, "text": "Just go through the door to start the challenge." },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena1PreBattle": {
+    "Brett": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Hello! I am the first language master." },
+        { "isTrigger": false, "text": "I will ask you questions about German vocabulary. Remember to pay attention to the articles: der, die, das!" },
+        { "isTrigger": false, "text": "Each wrong answer costs you energy." },
+        { "isTrigger": false, "text": "Each correct answer brings you closer to victory!" },
+        { "isTrigger": false, "text": "If you defeat me, the next challenge awaits you." },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Brett" } }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena1PostBattle": {
+    "Brett": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Your vocabulary is impressive!" },
+        { "isTrigger": false, "text": "But German is more than just words." },
+        { "isTrigger": false, "text": "Cody is waiting for you in the next room." },
+        { "isTrigger": false, "text": "Good luck!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena2PreBattle": {
+    "Cody": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "-drinks coffee-..." },
+        { "isTrigger": false, "text": "Welcome! I am the second language master." },
+        { "isTrigger": false, "text": "Now it's about German phrases and grammar." },
+        { "isTrigger": false, "text": "Are you ready for the next round?" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Cody" } }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena2PostBattle": {
+    "Cody": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "You have mastered the phrases!" },
+        { "isTrigger": false, "text": "Don't forget: Practice makes perfect." },
+        { "isTrigger": false, "text": "Scott is already waiting for you." },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena3PreBattle": {
+    "Scott": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "-takes a deep breath-..." },
+        { "isTrigger": false, "text": "Ready for advanced German questions?" },
+        { "isTrigger": false, "text": "I am the third language master." },
+        { "isTrigger": false, "text": "Now it gets tricky!" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Scott" } }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena3PostBattle": {
+    "Scott": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Very good! You are ready for the next level." },
+        { "isTrigger": false, "text": "Tim H. is waiting in the next room." },
+        { "isTrigger": false, "text": "Good luck!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena4PreBattle": {
+    "Tim H": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Welcome to the expert round!" },
+        { "isTrigger": false, "text": "I will ask you challenging German questions." },
+        { "isTrigger": false, "text": "Are you ready?" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Tim H" } }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena4PostBattle": {
+    "Tim H": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Fantastic! You passed the expert round." },
+        { "isTrigger": false, "text": "The last language master is waiting for you." },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena5PreBattle": {
+    "Min": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Congratulations, you are almost at the finish line!" },
+        { "isTrigger": false, "text": "I am the last language master." },
+        { "isTrigger": false, "text": "Only the best pass this test." },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Min" } }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena5PostBattle": {
+    "Min": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "You did it!" },
+        { "isTrigger": false, "text": "My student is waiting in the last room." },
+        { "isTrigger": false, "text": "Good luck in the grand finale!" },
+        { "isTrigger": true, "type": "npc-interaction-end" }
+      ],
+      "postBattle": null
+    }
+  },
+  "gymArena6": {
+    "Shashank": {
+      "hasBattled": false,
+      "preBattle": [
+        { "isTrigger": false, "text": "Wow! You made it to the end." },
+        { "isTrigger": false, "text": "I am Shashank, the creator of this language adventure." },
+        { "isTrigger": false, "text": "What you experienced here is like my own learning journey." },
+        { "isTrigger": false, "text": "But now, the final German duel awaits you!" },
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Shashank" } }
+      ],
+      "postBattle": [
+        { "isTrigger": false, "text": "Congratulations, you are a German champion!" },
+        { "isTrigger": false, "text": "There is much more to discover and learn." },
+        { "isTrigger": false, "text": "Come back anytime and keep improving your German!" },
+        { "isTrigger": false, "text": "See you next time!" },
+        { "isTrigger": true, "type": ["npc-interaction-end", "scene-transition-start", "scene-transition-end"], "action": [null, { "level": "home", "playerPosition": { "x": 11, "y": 15 }, "playerPositionOnDOM": [288, 64], "backgroundPositionOnDOM": [-64, -896], "playerFacingPosition": "down" }, null] }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1320 @@
+[
+  {
+    "question": "What is the German word for 'apple'?",
+    "answers": ["die Banane", "der Apfel", "die Traube", "die Birne"],
+    "correct": 1,
+    "difficulty": "easy",
+    "feedbackCorrect": "Correct! 'der Apfel' means 'the apple' in German. 'Apfel' is masculine, so the article is 'der'. Example: 'Ich esse einen Apfel.' means 'I am eating an apple.'",
+    "feedbackWrong": "Not quite. Which word means a common red fruit, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Banane' means 'the banana' in German. Try to find the word for 'the apple' with the right article.",
+      null,
+      "'die Traube' means 'the grape' in German. Try again!",
+      "'die Birne' means 'the pear' in German. Think of another fruit!"
+    ]
+  },
+  {
+    "question": "How do you say 'Good morning' in German?",
+    "answers": ["Guten Tag", "Guten Morgen", "Gute Nacht", "Hallo"],
+    "correct": 1,
+    "difficulty": "easy",
+    "feedbackCorrect": "Great! 'Guten Morgen' means 'Good morning'. Example: 'Guten Morgen, wie geht's?' means 'Good morning, how are you?'",
+    "feedbackWrong": "That's not right. What do you say at the start of the day? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Guten Morgen' is the correct answer! Try again.",
+      "'Gute Nacht' means 'Good night'. Think of a greeting for the morning!",
+      "'Hallo' is a general greeting. What do you say in the morning?"
+    ]
+  },
+  {
+    "question": "What color is 'Blau' in English?",
+    "answers": ["Red", "Blue", "Green", "Yellow"],
+    "correct": 1,
+    "difficulty": "easy",
+    "feedbackCorrect": "Correct! 'Blau' means 'blue' in German. Example: 'Der Himmel ist blau.' means 'The sky is blue.'",
+    "feedbackWrong": "Not quite. Which color is the sky on a sunny day? Try again!",
+    "feedbackWrongOptions": [
+      "'Rot' means 'red' in German. Try another color!",
+      null,
+      "'Grün' means 'green' in German. Try again!",
+      "'Gelb' means 'yellow' in German. Think of another color!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'family'?",
+    "answers": ["die Familie", "die Schule", "das Haus", "der Freund"],
+    "correct": 0,
+    "difficulty": "easy",
+    "feedbackCorrect": "Correct! 'die Familie' means 'the family' in German. Example: 'Meine Familie ist groß.' means 'My family is big.'",
+    "feedbackWrong": "Not quite. Which word means the group of people you live with? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'die Schule' means 'the school' in German. Try another word!",
+      "'das Haus' means 'the house' in German. Think of another word!",
+      "'der Freund' means 'the friend' in German. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'Monday'?",
+    "answers": ["Montag", "Dienstag", "Mittwoch", "Freitag"],
+    "correct": 0,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! 'Montag' means 'Monday' in German. Example: 'Am Montag gehe ich zur Arbeit.' means 'On Monday I go to work.'",
+    "feedbackWrong": "Not quite. Which word starts the week? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Dienstag' means 'Tuesday' in German. Try another day!",
+      "'Mittwoch' means 'Wednesday' in German. Try again!",
+      "'Freitag' means 'Friday' in German. Think of another day!"
+    ]
+  },
+  {
+    "question": "What is the plural of 'das Buch' (the book)?",
+    "answers": ["die Bücher", "die Buchs", "die Bücherin", "die Bucher"],
+    "correct": 0,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! The plural of 'das Buch' is 'die Bücher'. Example: 'Ich habe viele Bücher.' means 'I have many books.'",
+    "feedbackWrong": "Not quite. Which answer uses the correct plural form and article? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'die Buchs' is not a correct German plural. Try again!",
+      "'die Bücherin' is not a word. Try another answer!",
+      "'die Bucher' is missing the umlaut. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these is a polite way to say 'you' in German?",
+    "answers": ["du", "ihr", "Sie", "er"],
+    "correct": 2,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! 'Sie' is the polite form of 'you' in German. Use it with strangers or in formal situations.",
+    "feedbackWrong": "Not quite. Which word is used for formal address? Try again!",
+    "feedbackWrongOptions": [
+      "'du' is informal. Try another answer!",
+      "'ihr' is plural informal. Try again!",
+      null,
+      "'er' means 'he'. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'to eat'?",
+    "answers": ["trinken", "essen", "gehen", "sehen"],
+    "correct": 1,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! 'essen' means 'to eat' in German. Example: 'Ich esse gern Pizza.' means 'I like to eat pizza.'",
+    "feedbackWrong": "Not quite. Which verb means to consume food? Try again!",
+    "feedbackWrongOptions": [
+      "'trinken' means 'to drink'. Try another verb!",
+      null,
+      "'gehen' means 'to go'. Try again!",
+      "'sehen' means 'to see'. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these is a color in German?",
+    "answers": ["Apfel", "Blau", "Buch", "Hund"],
+    "correct": 1,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! 'Blau' means 'blue' in German. Example: 'Das Auto ist blau.' means 'The car is blue.'",
+    "feedbackWrong": "Not quite. Which word is a color? Try again!",
+    "feedbackWrongOptions": [
+      "'Apfel' means 'apple'. Try another word!",
+      null,
+      "'Buch' means 'book'. Try again!",
+      "'Hund' means 'dog'. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'to drink'?",
+    "answers": ["essen", "trinken", "gehen", "schlafen"],
+    "correct": 1,
+    "difficulty": "medium",
+    "feedbackCorrect": "Correct! 'trinken' means 'to drink' in German. Example: 'Ich trinke Wasser.' means 'I drink water.'",
+    "feedbackWrong": "Not quite. Which verb means to consume a liquid? Try again!",
+    "feedbackWrongOptions": [
+      "'essen' means 'to eat'. Try another verb!",
+      null,
+      "'gehen' means 'to go'. Try again!",
+      "'schlafen' means 'to sleep'. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these is the correct article for 'Mädchen' (girl)?",
+    "answers": ["die", "der", "das", "den"],
+    "correct": 2,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'das Mädchen' is correct, even though it refers to a female person. 'Mädchen' is neuter in German.",
+    "feedbackWrong": "Not quite. Which article is used for neuter nouns? Try again!",
+    "feedbackWrongOptions": [
+      "'die' is for feminine nouns. Try another article!",
+      "'der' is for masculine nouns. Try again!",
+      null,
+      "'den' is accusative. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'to sleep'?",
+    "answers": ["schlafen", "sehen", "gehen", "trinken"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'schlafen' means 'to sleep' in German. Example: 'Ich schlafe acht Stunden.' means 'I sleep eight hours.'",
+    "feedbackWrong": "Not quite. Which verb means to rest at night? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'sehen' means 'to see'. Try another verb!",
+      "'gehen' means 'to go'. Try again!",
+      "'trinken' means 'to drink'. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these is the plural of 'die Frau' (the woman)?",
+    "answers": ["die Frauen", "die Fraus", "die Fraue", "die Frauin"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! The plural of 'die Frau' is 'die Frauen'. Example: 'Die Frauen sprechen.' means 'The women are speaking.'",
+    "feedbackWrong": "Not quite. Which answer uses the correct plural form and article? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'die Fraus' is not a correct German plural. Try again!",
+      "'die Fraue' is not a word. Try another answer!",
+      "'die Frauin' is not a word. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these is a correct way to say 'I am fine' in German?",
+    "answers": ["Mir geht's gut", "Ich bin gut", "Ich habe gut", "Ich mache gut"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'Mir geht's gut' means 'I am fine' in German. Example: 'Danke, mir geht's gut.' means 'Thank you, I am fine.'",
+    "feedbackWrong": "Not quite. Which phrase is commonly used to say you are well? Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich bin gut' is not idiomatic. Try another answer!",
+      "'Ich habe gut' is not correct. Try again!",
+      "'Ich mache gut' is not correct. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'book'?",
+    "answers": ["der Stuhl", "das Buch", "der Tisch", "das Fenster"],
+    "correct": 1,
+    "feedbackCorrect": "Well done! 'das Buch' means 'the book' in German. 'Buch' is neuter, so the article is 'das'. Example: 'Ich lese ein Buch.' means 'I am reading a book.'",
+    "feedbackWrong": "Not quite. Which word is related to reading, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Stuhl' means 'the chair' in German. Think of something you read!",
+      null,
+      "'der Tisch' means 'the table' in German. Try another word!",
+      "'das Fenster' means 'the window' in German. Which word means something you read?"
+    ]
+  },
+  {
+    "question": "How do you say 'Thank you' in German?",
+    "answers": ["Bitte", "Entschuldigung", "Hallo", "Danke"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Danke' means 'Thank you'. Example: 'Danke für deine Hilfe.' means 'Thank you for your help.'",
+    "feedbackWrong": "That's not correct. Which word do you say after someone helps you? Try again!",
+    "feedbackWrongOptions": [
+      "'Bitte' means 'please'. Which word means 'thank you'?",
+      "'Entschuldigung' means 'excuse me' or 'sorry'. Try another word!",
+      "'Hallo' is a general greeting. Try again!",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'dog'?",
+    "answers": ["die Katze", "der Hund", "der Vogel", "die Maus"],
+    "correct": 1,
+    "feedbackCorrect": "Great! 'der Hund' means 'the dog' in German. 'Hund' is masculine, so the article is 'der'. Example: 'Der Hund bellt.' means 'The dog barks.'",
+    "feedbackWrong": "Not quite. Which animal is often a pet and barks, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Katze' means 'the cat' in German. Think of another pet!",
+      null,
+      "'der Vogel' means 'the bird' in German. Try another animal!",
+      "'die Maus' means 'the mouse' in German. Which word means 'the dog'?"
+    ]
+  },
+  {
+    "question": "How do you say 'Goodbye' in German?",
+    "answers": ["Willkommen", "Guten Abend", "Auf Wiedersehen", "Guten Morgen"],
+    "correct": 2,
+    "feedbackCorrect": "Correct! 'Auf Wiedersehen' means 'Goodbye'. Example: 'Auf Wiedersehen, bis bald!' means 'Goodbye, see you soon!'",
+    "feedbackWrong": "That's not right. How do you say goodbye at the end of a meeting? Try again!",
+    "feedbackWrongOptions": [
+      "'Willkommen' means 'welcome'. Which word means 'goodbye'?",
+      "'Guten Abend' is used in the evening. Think of a farewell used at any time!",
+      null,
+      "'Guten Morgen' is used in the morning. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'school'?",
+    "answers": ["das Haus", "das Auto", "das Buch", "die Schule"],
+    "correct": 3,
+    "difficulty": "easy",
+    "feedbackCorrect": "Well done! 'die Schule' means 'school' in German. Example: 'Die Schule beginnt um acht Uhr.' means 'School starts at eight o'clock.'",
+    "feedbackWrong": "Not quite. Where do children go to learn? Try again!",
+    "feedbackWrongOptions": [
+      "'das Haus' means 'house' in German. Think of a place for learning!",
+      "'das Auto' means 'car' in German. Try another word!",
+      "'das Buch' means 'book' in German. Which word means the place where education happens?",
+      null
+    ]
+  },
+  {
+    "question": "How do you say 'Please' in German?",
+    "answers": ["Tschüss", "Bitte", "Hallo", "Danke"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Bitte' means 'Please'. Example: 'Kannst du mir bitte helfen?' means 'Can you please help me?'",
+    "feedbackWrong": "That's not right. Which word do you use to politely ask for something? Try again!",
+    "feedbackWrongOptions": [
+      "'Tschüss' means 'bye'. Think of a word for politeness!",
+      null,
+      "'Hallo' is a general greeting. Which word means 'please'?",
+      "'Danke' means 'thank you'. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'water'?",
+    "answers": ["die Milch", "der Saft", "das Brot", "das Wasser"],
+    "correct": 3,
+    "feedbackCorrect": "Great! 'das Wasser' means 'water' in German. Example: 'Ich trinke ein Glas Wasser.' means 'I am drinking a glass of water.'",
+    "feedbackWrong": "Not quite. Which word means the clear liquid we drink? Try again!",
+    "feedbackWrongOptions": [
+      "'die Milch' means 'milk' in German. Think of another drink!",
+      "'der Saft' means 'juice' in German. Try another word!",
+      "'das Brot' means 'bread' in German. Which word means the drinkable liquid?",
+      null
+    ]
+  },
+  {
+    "question": "How do you say 'Excuse me' in German?",
+    "answers": ["Bitte", "Entschuldigung", "Guten Tag", "Willkommen"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Entschuldigung' is used to get someone's attention or to apologize. Example: 'Entschuldigung, wo ist die Toilette?' means 'Excuse me, where is the bathroom?'",
+    "feedbackWrong": "That's not right. How do you politely ask for something or apologize? Try again!",
+    "feedbackWrongOptions": [
+      "'Bitte' means 'please'. Which word means 'excuse me'?",
+      null,
+      "'Guten Tag' means 'good day'. Think of another phrase!",
+      "'Willkommen' means 'welcome'. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'cat'?",
+    "answers": ["der Hund", "die Katze", "der Vogel", "der Fisch"],
+    "correct": 1,
+    "feedbackCorrect": "Well done! 'die Katze' means 'the cat' in German. 'Katze' is feminine, so the article is 'die'. Example: 'Die Katze schläft auf dem Sofa.' means 'The cat is sleeping on the sofa.'",
+    "feedbackWrong": "Not quite. Which word means the pet that purrs, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Hund' means 'the dog' in German. Think of another pet!",
+      null,
+      "'der Vogel' means 'the bird' in German. Try another animal!",
+      "'der Fisch' means 'the fish' in German. Which word means the purring pet?"
+    ]
+  },
+  {
+    "question": "How do you say 'Yes' in German?",
+    "answers": ["Nein", "Ja", "Vielleicht", "Bitte"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Ja' means 'Yes'. Example: 'Ja, ich verstehe.' means 'Yes, I understand.'",
+    "feedbackWrong": "That's not right. Which word do you say to express agreement? Try again!",
+    "feedbackWrongOptions": [
+      "'Nein' means 'no'. Think of another word for agreement!",
+      null,
+      "'Vielleicht' means 'maybe'. Try another word!",
+      "'Bitte' means 'please'. Which word means 'yes'?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'bread'?",
+    "answers": ["der Käse", "die Milch", "das Brot", "die Wurst"],
+    "correct": 2,
+    "feedbackCorrect": "Great! 'das Brot' means 'the bread' in German. 'Brot' is neuter, so the article is 'das'. Example: 'Ich hätte gern ein Stück Brot.' means 'I would like a piece of bread.'",
+    "feedbackWrong": "Not quite. Which word means the staple food made from flour, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Käse' means 'the cheese' in German. Think of another staple food!",
+      "'die Milch' means 'the milk' in German. Try another word!",
+      null,
+      "'die Wurst' means 'the sausage' in German. Which word means the common food made from flour?"
+    ]
+  },
+  {
+    "question": "How do you say 'No' in German?",
+    "answers": ["Ja", "Vielleicht", "Nein", "Bitte"],
+    "correct": 2,
+    "feedbackCorrect": "Correct! 'Nein' means 'No'. Example: 'Nein, das ist nicht mein Buch.' means 'No, that is not my book.'",
+    "feedbackWrong": "That's not right. Which word do you say to express refusal? Try again!",
+    "feedbackWrongOptions": [
+      "'Ja' means 'yes'. Think of another word for 'no'!",
+      "'Vielleicht' means 'maybe'. Try another word!",
+      null,
+      "'Bitte' means 'please'. Which word means 'no'?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'car'?",
+    "answers": ["das Fahrrad", "der Bus", "das Auto", "der Zug"],
+    "correct": 2,
+    "feedbackCorrect": "Well done! 'das Auto' means 'the car' in German. 'Auto' is neuter, so the article is 'das'. Example: 'Ich fahre mit dem Auto zur Arbeit.' means 'I drive to work by car.'",
+    "feedbackWrong": "Not quite. Which word means the vehicle with four wheels, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'das Fahrrad' means 'the bicycle' in German. Think of another vehicle!",
+      "'der Bus' means 'the bus' in German. Try another word!",
+      null,
+      "'der Zug' means 'the train' in German. Which word means the vehicle on the road?"
+    ]
+  },
+  {
+    "question": "How do you say 'I love you' in German?",
+    "answers": ["Ich mag dich", "Ich hasse dich", "Ich sehe dich", "Ich liebe dich"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich liebe dich' means 'I love you'. Example: 'Ich liebe dich, mein Schatz.' means 'I love you, my darling.'",
+    "feedbackWrong": "That's not right. How do you express your affection for someone? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich mag dich' means 'I like you'. Think of a stronger feeling!",
+      "'Ich hasse dich' means 'I hate you'. That's the opposite of love!",
+      "'Ich sehe dich' means 'I see you'. That doesn't express love!",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'house'?",
+    "answers": ["die Schule", "das Haus", "das Buch", "das Auto"],
+    "correct": 1,
+    "feedbackCorrect": "Well done! 'das Haus' means 'the house' in German. 'Haus' is neuter, so the article is 'das'. Example: 'Mein Haus ist dein Haus.' means 'My house is your house.'",
+    "feedbackWrong": "Not quite. Which word means the building where people live, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Schule' means 'the school' in German. Think of another building!",
+      null,
+      "'das Buch' means 'the book' in German. Try another word!",
+      "'das Auto' means 'the car' in German. Which word means the building where people live?"
+    ]
+  },
+  {
+    "question": "How do you say 'My name is...' in German?",
+    "answers": ["Ich bin...", "Mein Name ist...", "Du bist...", "Ich heiße..."],
+    "correct": [0, 1, 3],
+    "feedbackCorrectOptions": [
+      "'Ich bin...' is correct! This literally means 'I am...'. It's informal and common in introductions.",
+      "'Mein Name ist...' is correct! This means 'My name is...'. It's a clear and formal way to introduce yourself.",
+      null,
+      "'Ich heiße...' is correct! This means 'I am called...'. It's the most common way to introduce yourself in German."
+    ],
+    "feedbackCorrect": "All of these are valid ways to introduce yourself: 'Ich bin...', 'Mein Name ist...', and 'Ich heiße...'. Try using each in different situations!",
+    "feedbackWrong": "Not quite. There are several ways to introduce yourself in German. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'Du bist...' means 'You are...'. That's not the right form!",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'milk'?",
+    "answers": ["die Wasser", "die Milch", "der Saft", "das Brot"],
+    "correct": 1,
+    "feedbackCorrect": "Well done! 'die Milch' means 'the milk' in German. 'Milch' is feminine, so the article is 'die'. Example: 'Ich trinke Milch zum Frühstück.' means 'I drink milk for breakfast.'",
+    "feedbackWrong": "Not quite. Which word means the white drink that comes from cows, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Wasser' means 'the water' in German. Think of another drink!",
+      null,
+      "'der Saft' means 'the juice' in German. Try another word!",
+      "'das Brot' means 'the bread' in German. Which word means the drink?"
+    ]
+  },
+  {
+    "question": "How do you say 'Where is the bathroom?' in German?",
+    "answers": ["Wo ist die Küche, bitte?", "Wo ist der Balkon, bitte?", "Wo ist das WC, bitte?", "Wo ist die Toilette, bitte?"],
+    "correct": [2, 3],
+    "feedbackCorrectOptions": [
+      null,
+      null,
+      "'Wo ist das WC, bitte?' is correct! This is a common and polite way to ask for the bathroom in German.",
+      "'Wo ist die Toilette, bitte?' is correct! This is another common and polite way to ask for the bathroom."
+    ],
+    "feedbackCorrect": "Both 'Wo ist das WC, bitte?' and 'Wo ist die Toilette, bitte?' mean 'Where is the bathroom, please?' in German. Both are commonly used. Try to remember both!",
+    "feedbackWrong": "Not quite. There are two correct ways to ask for the bathroom in German. Try again!",
+    "feedbackWrongOptions": [
+      "'Wo ist die Küche, bitte?' means 'Where is the kitchen, please?'. That's not the right question!",
+      "'Wo ist der Balkon, bitte?' means 'Where is the balcony, please?'. Think of another question!",
+      null,
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'cheese'?",
+    "answers": ["das Brot", "die Milch", "der Käse", "die Wurst"],
+    "correct": 2,
+    "feedbackCorrect": "Great! 'der Käse' means 'the cheese' in German. 'Käse' is masculine, so the article is 'der'. Example: 'Ich hätte gern ein Stück Käse.' means 'I would like a piece of cheese.'",
+    "feedbackWrong": "Not quite. Which word means the dairy product often eaten with bread, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'das Brot' means 'the bread' in German. Think of another food!",
+      "'die Milch' means 'the milk' in German. Try another word!",
+      null,
+      "'die Wurst' means 'the sausage' in German. Which word means the dairy product?"
+    ]
+  },
+  {
+    "question": "How do you say 'How are you?' in German?",
+    "answers": ["Was machst du?", "Wie geht's?", "Wo bist du?", "Wer bist du?"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Wie geht's?' means 'How are you?'. Example: 'Hallo, wie geht's dir?' means 'Hello, how are you?'.",
+    "feedbackWrong": "That's not right. How do you ask someone about their well-being? Try again!",
+    "feedbackWrongOptions": [
+      "'Was machst du?' means 'What are you doing?'. That's not the right question!",
+      null,
+      "'Wo bist du?' means 'Where are you?'. Think of another question!",
+      "'Wer bist du?' means 'Who are you?'. That's not the right question!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'train'?",
+    "answers": ["der Bus", "das Auto", "das Fahrrad", "der Zug"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'der Zug' means 'the train' in German. 'Zug' is masculine, so the article is 'der'. Example: 'Der Zug fährt pünktlich ab.' means 'The train departs on time.'",
+    "feedbackWrong": "Not quite. Which word means the vehicle on rails, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Bus' means 'the bus' in German. Think of another vehicle!",
+      "'das Auto' means 'the car' in German. Try another word!",
+      "'das Fahrrad' means 'the bicycle' in German. Which word means the rail vehicle?",
+      null
+    ]
+  },
+  {
+    "question": "How do you say 'See you soon' in German?",
+    "answers": ["Bis später", "Bis bald", "Bis morgen", "Bis dann"],
+    "correct": [0, 1],
+    "feedbackCorrectOptions": [
+      "'Bis später' is correct! This means 'See you later' or 'See you soon'.",
+      "'Bis bald' is correct! This means 'See you soon'. It's a friendly and common farewell.",
+      null,
+      null
+    ],
+    "feedbackCorrect": "Both 'Bis später' and 'Bis bald' mean 'See you soon' in German. Try to use both in conversation!",
+    "feedbackWrong": "Not quite. There are two common ways to say 'See you soon' in German. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'Bis morgen' means 'See you tomorrow'. Think of another answer!",
+      "'Bis dann' is an informal farewell. Try again!"
+    ]
+  },
+  {
+    "question": "What is the German word for 'window'?",
+    "answers": ["die Tür", "das Fenster", "der Boden", "die Decke"],
+    "correct": 1,
+    "feedbackCorrect": "Great! 'das Fenster' means 'the window' in German. 'Fenster' is neuter, so the article is 'das'. Example: 'Das Fenster ist offen.' means 'The window is open.'",
+    "feedbackWrong": "Not quite. Which word means the opening in the wall that lets light in, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Tür' means 'the door' in German. Think of another word for an opening in the wall!",
+      null,
+      "'der Boden' means 'the floor' in German. Try another word!",
+      "'die Decke' means 'the ceiling' or 'blanket' in German. Which word means the window?"
+    ]
+  },
+  {
+    "question": "How do you say 'I don't understand' in German?",
+    "answers": ["Ich weiß nicht", "Ich verstehe nicht", "Ich kann nicht", "Ich habe nicht"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Ich verstehe nicht' means 'I don't understand'. Example: 'Entschuldigung, ich verstehe nicht, können Sie das bitte wiederholen?' means 'Excuse me, I don't understand, can you please repeat that?'",
+    "feedbackWrong": "That's not right. How do you say that you don't understand something? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich weiß nicht' means 'I don't know'. Think of another phrase!",
+      "'Ich kann nicht' means 'I can't'. That doesn't express misunderstanding!",
+      "'Ich habe nicht' means 'I don't have'. Which word means 'I don't understand'?",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'table'?",
+    "answers": ["der Stuhl", "der Tisch", "das Bett", "der Schrank"],
+    "correct": 1,
+    "feedbackCorrect": "Well done! 'der Tisch' means 'the table' in German. 'Tisch' is masculine, so the article is 'der'. Example: 'Der Tisch ist aus Holz.' means 'The table is made of wood.'",
+    "feedbackWrong": "Not quite. Which word means the furniture you eat or work at, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Stuhl' means 'the chair' in German. Think of another piece of furniture!",
+      null,
+      "'das Bett' means 'the bed' in German. Try another word!",
+      "'der Schrank' means 'the wardrobe' in German. Which word means the table?"
+    ]
+  },
+  {
+    "question": "How do you say 'Can you help me?' in German?",
+    "answers": ["Kannst du das machen?", "Kann ich helfen?", "Können Sie mir helfen?", "Kannst du mir helfen?"],
+    "correct": [2, 3],
+    "feedbackCorrectOptions": [
+      null,
+      null,
+      "'Können Sie mir helfen?' is correct! This is the formal way to ask for help in German.",
+      "'Kannst du mir helfen?' is correct! This is the informal way to ask for help."
+    ],
+    "feedbackCorrect": "Both 'Können Sie mir helfen?' (formal) and 'Kannst du mir helfen?' (informal) mean 'Can you help me?' in German. Use 'Sie' for formal situations and 'du' for informal.",
+    "feedbackWrong": "Not quite. There are two correct ways to ask for help in German. Try again!",
+    "feedbackWrongOptions": [
+      "'Kannst du das machen?' means 'Can you do that?'. Think of another question!",
+      "'Kann ich helfen?' means 'Can I help?'. You are asking for help, not offering it!",
+      null,
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'chair'?",
+    "answers": ["der Tisch", "das Bett", "der Schrank", "der Stuhl"],
+    "correct": 3,
+    "feedbackCorrect": "Great! 'der Stuhl' means 'the chair' in German. 'Stuhl' is masculine, so the article is 'der'. Example: 'Ich sitze auf dem Stuhl.' means 'I am sitting on the chair.'",
+    "feedbackWrong": "Not quite. Which word means the furniture you sit on, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Tisch' means 'the table' in German. Think of another piece of furniture!",
+      "'das Bett' means 'the bed' in German. Try another word!",
+      "'der Schrank' means 'the wardrobe' in German. Which word means the chair?"
+    ]
+  },
+  {
+    "question": "How do you say 'How much does it cost?' in German?",
+    "answers": ["Wie viel Uhr ist es?", "Wie viel kostet das?", "Wie alt bist du?", "Wo ist das?"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Wie viel kostet das?' means 'How much does it cost?'. Example: 'Entschuldigung, wie viel kostet das Brot?' means 'Excuse me, how much does the bread cost?'",
+    "feedbackWrong": "That's not right. How do you ask about the price? Try again!",
+    "feedbackWrongOptions": [
+      "'Wie viel Uhr ist es?' asks for the time. Think of another question!",
+      null,
+      "'Wie alt bist du?' asks for age. Try another question!",
+      "'Wo ist das?' asks for location. Which word means the price?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'friend'?",
+    "answers": ["der Feind", "der Freund", "der Vater", "die Mutter"],
+    "correct": 1,
+    "feedbackCorrect": "Great! 'der Freund' means 'the friend' in German. 'Freund' is masculine, so the article is 'der'. Example: 'Mein Freund heißt Peter.' means 'My friend's name is Peter.'",
+    "feedbackWrong": "Not quite. Which word means a person close to you, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Feind' means 'the enemy' in German. Think of another word for friend!",
+      null,
+      "'der Vater' means 'the father' in German. Try another word!",
+      "'die Mutter' means 'the mother' in German. Which word means friend?"
+    ]
+  },
+  {
+    "question": "How do you say 'I'm hungry' in German?",
+    "answers": ["Ich bin müde", "Ich habe Hunger", "Ich habe Durst", "Ich bin traurig"],
+    "correct": 1,
+    "feedbackCorrect": "Correct! 'Ich habe Hunger' means 'I'm hungry'. Example: 'Entschuldigung, ich habe Hunger, wo ist das Restaurant?' means 'Excuse me, I'm hungry, where is the restaurant?'",
+    "feedbackWrong": "That's not right. How do you say that you want to eat? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich bin müde' means 'I'm tired'. Think of another feeling!",
+      null,
+      "'Ich habe Durst' means 'I'm thirsty'. Try another word!",
+      "'Ich bin traurig' means 'I'm sad'. Which word means hungry?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'mother'?",
+    "answers": ["der Vater", "die Schwester", "der Bruder", "die Mutter"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'die Mutter' means 'the mother' in German. 'Mutter' is feminine, so the article is 'die'. Example: 'Meine Mutter kocht gerne.' means 'My mother likes to cook.'",
+    "feedbackWrong": "Not quite. Which word means the female parent, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Vater' means 'the father' in German. Think of another parent!",
+      "'die Schwester' means 'the sister' in German. Try another word!",
+      "'der Bruder' means 'the brother' in German. Which word means mother?"
+    ]
+  },
+  {
+    "question": "How do you say 'I'm tired' in German?",
+    "answers": ["Ich bin hungrig", "Ich bin traurig", "Ich bin glücklich", "Ich bin müde"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich bin müde' means 'I'm tired'. Example: 'Nach der Arbeit bin ich müde.' means 'After work, I am tired.'",
+    "feedbackWrong": "That's not right. How do you say that you want to rest? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich bin hungrig' means 'I'm hungry'. Think of another feeling!",
+      "'Ich bin traurig' means 'I'm sad'. Try another word!",
+      "'Ich bin glücklich' means 'I'm happy'. Which word means tired?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'father'?",
+    "answers": ["die Mutter", "der Bruder", "der Vater", "die Schwester"],
+    "correct": 2,
+    "feedbackCorrect": "Great! 'der Vater' means 'the father' in German. 'Vater' is masculine, so the article is 'der'. Example: 'Mein Vater arbeitet im Garten.' means 'My father works in the garden.'",
+    "feedbackWrong": "Not quite. Which word means the male parent, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Mutter' means 'the mother' in German. Think of another parent!",
+      "'der Bruder' means 'the brother' in German. Try another word!",
+      null,
+      "'die Schwester' means 'the sister' in German. Which word means father?"
+    ]
+  },
+  {
+    "question": "How do you say 'I'm thirsty' in German?",
+    "answers": ["Ich habe Hunger", "Ich bin müde", "Ich habe Durst", "Ich bin traurig"],
+    "correct": 2,
+    "feedbackCorrect": "Correct! 'Ich habe Durst' means 'I'm thirsty'. Example: 'Nach dem Sport habe ich Durst.' means 'After sports, I am thirsty.'",
+    "feedbackWrong": "That's not right. How do you say that you want something to drink? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich habe Hunger' means 'I'm hungry'. Think of another need!",
+      "'Ich bin müde' means 'I'm tired'. Try another word!",
+      null,
+      "'Ich bin traurig' means 'I'm sad'. Which word means thirsty?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'sister'?",
+    "answers": ["der Bruder", "die Mutter", "der Vater", "die Schwester"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'die Schwester' means 'the sister' in German. 'Schwester' is feminine, so the article is 'die'. Example: 'Meine Schwester ist älter als ich.' means 'My sister is older than me.'",
+    "feedbackWrong": "Not quite. Which word means the female sibling, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Bruder' means 'the brother' in German. Think of another sibling!",
+      "'die Mutter' means 'the mother' in German. Try another word!",
+      "'der Vater' means 'the father' in German. Which word means sister?"
+    ]
+  },
+  {
+    "question": "How do you say 'I'm happy' in German?",
+    "answers": ["Ich bin traurig", "Ich bin müde", "Ich bin hungrig", "Ich bin glücklich"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich bin glücklich' means 'I'm happy'. Example: 'Heute bin ich glücklich, weil die Sonne scheint.' means 'Today I am happy because the sun is shining.'",
+    "feedbackWrong": "That's not right. How do you say that you feel good? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich bin traurig' means 'I'm sad'. Think of another feeling!",
+      "'Ich bin müde' means 'I'm tired'. Try another word!",
+      "'Ich bin hungrig' means 'I'm hungry'. Which word means happy?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'brother'?",
+    "answers": ["die Schwester", "die Mutter", "der Vater", "der Bruder"],
+    "correct": 3,
+    "feedbackCorrect": "Great! 'der Bruder' means 'the brother' in German. 'Bruder' is masculine, so the article is 'der'. Example: 'Mein Bruder spielt Fußball.' means 'My brother plays soccer.'",
+    "feedbackWrong": "Not quite. Which word means the male sibling, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Schwester' means 'the sister' in German. Think of another sibling!",
+      "'die Mutter' means 'the mother' in German. Try another word!",
+      "'der Vater' means 'the father' in German. Which word means brother?"
+    ]
+  },
+  {
+    "question": "How do you say 'What is your name?' in German?",
+    "answers": ["Wo wohnst du?", "Wie alt bist du?", "Was machst du?", "Wie heißt du?"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Wie heißt du?' means 'What is your name?'. Example: 'Hallo, wie heißt du?' means 'Hello, what is your name?'",
+    "feedbackWrong": "That's not right. How do you ask someone's name? Try again!",
+    "feedbackWrongOptions": [
+      "'Wo wohnst du?' means 'Where do you live?'. Think of another question!",
+      "'Wie alt bist du?' means 'How old are you?'. Try another question!",
+      "'Was machst du?' means 'What do you do?'. Which word means 'what is your name'?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'city'?",
+    "answers": ["das Land", "das Dorf", "das Haus", "die Stadt"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'die Stadt' means 'the city' in German. 'Stadt' is feminine, so the article is 'die'. Example: 'Ich wohne in einer großen Stadt.' means 'I live in a big city.'",
+    "feedbackWrong": "Not quite. Which word means an urban area, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'das Land' means 'the country' in German. Think of another word for an urban area!",
+      "'das Dorf' means 'the village' in German. Try another word!",
+      "'das Haus' means 'the house' in German. Which word means the city?"
+    ]
+  },
+  {
+    "question": "How do you say 'Where are you from?' in German?",
+    "answers": ["Wie alt bist du?", "Was machst du?", "Wie geht's?", "Woher kommst du?"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Woher kommst du?' means 'Where are you from?'. Example: 'Hallo, woher kommst du?' means 'Hello, where are you from?'",
+    "feedbackWrong": "That's not right. How do you ask about someone's origin? Try again!",
+    "feedbackWrongOptions": [
+      "'Wie alt bist du?' means 'How old are you?'. Think of another question!",
+      "'Was machst du?' means 'What do you do?'. Try another question!",
+      "'Wie geht's?' means 'How are you?'. Which word means 'where are you from'?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'country'?",
+    "answers": ["die Stadt", "das Dorf", "das Haus", "das Land"],
+    "correct": 3,
+    "feedbackCorrect": "Great! 'das Land' means 'the country' in German. 'Land' is neuter, so the article is 'das'. Example: 'Ich reise gerne in andere Länder.' means 'I like to travel to other countries.'",
+    "feedbackWrong": "Not quite. Which word means a state or geographical area, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Stadt' means 'the city' in German. Think of another word for a country!",
+      "'das Dorf' means 'the village' in German. Try another word!",
+      "'das Haus' means 'the house' in German. Which word means the country?"
+    ]
+  },
+  {
+    "question": "How do you say 'I don't know' in German?",
+    "answers": ["Ich kann nicht", "Ich habe nicht", "Ich bin nicht", "Ich weiß nicht"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich weiß nicht' means 'I don't know'. Example: 'Entschuldigung, ich weiß nicht, wo die Bibliothek ist.' means 'Excuse me, I don't know where the library is.'",
+    "feedbackWrong": "That's not right. How do you say that you don't have an answer to a question? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich kann nicht' means 'I can't'. Think of another phrase!",
+      "'Ich habe nicht' means 'I don't have'. That doesn't express lack of knowledge!",
+      "'Ich bin nicht' means 'I am not'. Which word means 'I don't know'?",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'child'?",
+    "answers": ["der Mann", "die Frau", "das Baby", "das Kind"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'das Kind' means 'the child' in German. 'Kind' is neuter, so the article is 'das'. Example: 'Das Kind spielt im Garten.' means 'The child is playing in the garden.'",
+    "feedbackWrong": "Not quite. Which word means a young person, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Mann' means 'the man' in German. Think of another word for a young person!",
+      "'die Frau' means 'the woman' in German. Try another word!",
+      "'das Baby' means 'the baby' in German. Which word means child?"
+    ]
+  },
+  {
+    "question": "How do you say 'I am learning German' in German?",
+    "answers": ["Ich spreche Deutsch", "Ich bin Deutsch", "Ich habe Deutsch", "Ich lerne Deutsch"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich lerne Deutsch' means 'I am learning German'. Example: 'Ich lerne Deutsch, weil ich nach Deutschland reisen möchte.' means 'I am learning German because I want to travel to Germany.'",
+    "feedbackWrong": "That's not right. How do you say that you are learning a language? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich spreche Deutsch' means 'I speak German'. That doesn't express learning!",
+      "'Ich bin Deutsch' means 'I am German'. That's not the right answer!",
+      "'Ich habe Deutsch' means 'I have German'. Which word means learning?"
+    ]
+  },
+  {
+    "question": "What is the German word for 'woman'?",
+    "answers": ["der Mann", "das Kind", "das Baby", "die Frau"],
+    "correct": 3,
+    "feedbackCorrect": "Great! 'die Frau' means 'the woman' in German. 'Frau' is feminine, so the article is 'die'. Example: 'Die Frau liest ein Buch.' means 'The woman is reading a book.'",
+    "feedbackWrong": "Not quite. Which word means the female gender, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'der Mann' means 'the man' in German. Think of another word for the female gender!",
+      "'das Kind' means 'the child' in German. Try another word!",
+      "'das Baby' means 'the baby' in German. Which word means the adult woman?"
+    ]
+  },
+  {
+    "question": "How do you say 'I speak a little German' in German?",
+    "answers": ["Ich spreche kein Deutsch", "Ich spreche viel Deutsch", "Ich spreche gut Deutsch", "Ich spreche ein bisschen Deutsch"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Ich spreche ein bisschen Deutsch' means 'I speak a little German'. Example: 'Ich spreche ein bisschen Deutsch, aber ich lerne noch.' means 'I speak a little German, but I am still learning.'",
+    "feedbackWrong": "That's not right. How do you say that you have basic knowledge of a language? Try again!",
+    "feedbackWrongOptions": [
+      "'Ich spreche kein Deutsch' means 'I don't speak German'. That's the opposite of the right answer!",
+      "'Ich spreche viel Deutsch' means 'I speak a lot of German'. That doesn't express the level!",
+      "'Ich spreche gut Deutsch' means 'I speak German well'. Think of a more modest answer!",
+      null
+    ]
+  },
+  {
+    "question": "What is the German word for 'man'?",
+    "answers": ["die Frau", "das Kind", "das Baby", "der Mann"],
+    "correct": 3,
+    "feedbackCorrect": "Well done! 'der Mann' means 'the man' in German. 'Mann' is masculine, so the article is 'der'. Example: 'Der Mann arbeitet hart.' means 'The man works hard.'",
+    "feedbackWrong": "Not quite. Which word means the male gender, and has the correct article? Try again!",
+    "feedbackWrongOptions": [
+      "'die Frau' means 'the woman' in German. Think of another word for the male gender!",
+      "'das Kind' means 'the child' in German. Try another word!",
+      "'das Baby' means 'the baby' in German. Which word means the adult man?"
+    ]
+  },
+  {
+    "question": "How do you say 'Do you speak English?' in German?",
+    "answers": ["Sprechen Sie Deutsch?", "Sprechen Sie Französisch?", "Sprechen Sie Spanisch?", "Sprechen Sie Englisch?"],
+    "correct": 3,
+    "feedbackCorrect": "Correct! 'Sprechen Sie Englisch?' means 'Do you speak English?'. Example: 'Entschuldigung, sprechen Sie Englisch?' means 'Excuse me, do you speak English?'",
+    "feedbackWrong": "That's not right. How do you ask about someone's language skills? Try again!",
+    "feedbackWrongOptions": [
+      "'Sprechen Sie Deutsch?' asks if someone speaks German. Think of another language!",
+      "'Sprechen Sie Französisch?' asks if someone speaks French. Try another language!",
+      "'Sprechen Sie Spanisch?' asks if someone speaks Spanish. Which language do you mean?"
+    ]
+  },
+  {
+    "question": "Which of these are correct ways to say 'I'm sorry' in German?",
+    "answers": ["Entschuldigung", "Es tut mir leid", "Guten Morgen", "Bitte"],
+    "correct": [0, 1],
+    "difficulty": "medium",
+    "feedbackCorrectOptions": [
+      "'Entschuldigung' is correct! It's used to get someone's attention or to apologize.",
+      "'Es tut mir leid' is correct! It means 'I'm sorry' in German.",
+      null,
+      null
+    ],
+    "feedbackCorrect": "Both 'Entschuldigung' and 'Es tut mir leid' are correct ways to say 'I'm sorry' in German. Use 'Entschuldigung' for minor apologies or to get attention, and 'Es tut mir leid' for expressing regret.",
+    "feedbackWrong": "Not quite. There are two correct ways to say 'I'm sorry' in German. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'Guten Morgen' means 'Good morning'. That's not an apology!",
+      "'Bitte' means 'please' or 'you're welcome'. Try again!"
+    ]
+  },
+  {
+    "question": "Which of these are German modal verbs?",
+    "answers": ["können", "müssen", "gehen", "wollen"],
+    "correct": [0, 1, 3],
+    "difficulty": "hard",
+    "feedbackCorrectOptions": [
+      "'können' is correct! It means 'can/to be able to'.",
+      "'müssen' is correct! It means 'must/to have to'.",
+      null,
+      "'wollen' is correct! It means 'to want'."
+    ],
+    "feedbackCorrect": "'können', 'müssen', and 'wollen' are all modal verbs in German. Modal verbs are used to express ability, necessity, or desire.",
+    "feedbackWrong": "Not quite. There are three modal verbs in this list. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'gehen' means 'to go' and is not a modal verb. Try again!",
+      null
+    ]
+  },
+  {
+    "question": "Which of these are correct ways to say 'Goodbye' in German?",
+    "answers": ["Tschüss", "Auf Wiedersehen", "Guten Abend", "Bis bald"],
+    "correct": [0, 1, 3],
+    "difficulty": "medium",
+    "feedbackCorrectOptions": [
+      "'Tschüss' is correct! It's an informal way to say goodbye.",
+      "'Auf Wiedersehen' is correct! It's a formal way to say goodbye.",
+      null,
+      "'Bis bald' is correct! It means 'See you soon'."
+    ],
+    "feedbackCorrect": "'Tschüss', 'Auf Wiedersehen', and 'Bis bald' are all correct ways to say goodbye in German. Use 'Tschüss' informally, 'Auf Wiedersehen' formally, and 'Bis bald' for 'see you soon'.",
+    "feedbackWrong": "Not quite. There are three correct ways to say goodbye in this list. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'Guten Abend' means 'Good evening'. That's not a farewell!",
+      null
+    ]
+  },
+  {
+    "question": "Which of these are correct plural forms in German?",
+    "answers": ["die Kinder", "die Apfels", "die Bücher", "die Fraus"],
+    "correct": [0, 2],
+    "difficulty": "hard",
+    "feedbackCorrectOptions": [
+      "'die Kinder' is correct! It's the plural of 'das Kind' (child).",
+      null,
+      "'die Bücher' is correct! It's the plural of 'das Buch' (book).",
+      null
+    ],
+    "feedbackCorrect": "'die Kinder' and 'die Bücher' are correct plural forms in German. Watch out for incorrect endings!",
+    "feedbackWrong": "Not quite. Only two of these are correct plural forms. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'die Apfels' is not a correct plural. The correct form is 'die Äpfel'.",
+      null,
+      "'die Fraus' is not a correct plural. The correct form is 'die Frauen'."
+    ]
+  },
+  {
+    "question": "Select all sentences that use the correct accusative case for 'der Hund' (the dog):",
+    "answers": [
+      "Ich sehe den Hund.",
+      "Ich spiele mit den Hund.",
+      "Der Junge hat den Hund.",
+      "Ich gebe das Hund einen Ball."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich sehe den Hund.' uses the accusative case correctly.",
+      "'Ich spiele mit den Hund.' is incorrect. After 'mit', the dative case is required: 'mit dem Hund'.",
+      "Correct! 'Der Junge hat den Hund.' uses the accusative case correctly.",
+      "'Ich gebe das Hund einen Ball.' is incorrect. 'Hund' is masculine, so it should be 'dem Hund' in dative."
+    ],
+    "feedbackCorrect": "Great! Both 'Ich sehe den Hund.' and 'Der Junge hat den Hund.' use the accusative case correctly for a masculine noun.",
+    "feedbackWrong": "Not quite. Only two sentences use the correct accusative for 'der Hund'. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich spiele mit den Hund.' is not correct. 'Mit' requires dative: 'mit dem Hund'.",
+      null,
+      "'Ich gebe das Hund einen Ball.' is not correct. 'Hund' is masculine, so it should be 'dem Hund'."
+    ]
+  },
+  {
+    "question": "Which of these sentences correctly use a separable verb? (Select all that apply)",
+    "answers": [
+      "Ich stehe um 7 Uhr auf.",
+      "Ich aufstehe um 7 Uhr.",
+      "Er ruft seine Mutter an.",
+      "Er anruft seine Mutter."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich stehe ... auf.' is the correct word order for a separable verb.",
+      "'Ich aufstehe ...' is incorrect word order.",
+      "Correct! 'Er ruft ... an.' is the correct word order for a separable verb.",
+      "'Er anruft ...' is incorrect word order."
+    ],
+    "feedbackCorrect": "Well done! You recognized the correct use of separable verbs in German.",
+    "feedbackWrong": "Not quite. Only two sentences use separable verbs correctly. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich aufstehe ...' is not correct. The verb should be split.",
+      null,
+      "'Er anruft ...' is not correct. The verb should be split."
+    ]
+  },
+  {
+    "question": "Select all the correct translations for 'I am hungry':",
+    "answers": [
+      "Ich bin hungrig.",
+      "Ich habe Hunger.",
+      "Ich bin Hunger.",
+      "Ich habe hungrig."
+    ],
+    "correct": [0,1],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich bin hungrig.' is a direct translation and is used in German.",
+      "Correct! 'Ich habe Hunger.' is the more common way to say 'I am hungry' in German.",
+      "'Ich bin Hunger.' is incorrect. 'Hunger' is a noun, so you use 'haben'.",
+      "'Ich habe hungrig.' is incorrect. 'Hungrig' is an adjective, so you use 'sein'."
+    ],
+    "feedbackCorrect": "Great! Both 'Ich bin hungrig.' and 'Ich habe Hunger.' are correct ways to say 'I am hungry' in German.",
+    "feedbackWrong": "Not quite. Two answers are correct. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      null,
+      "'Ich bin Hunger.' is not correct. Use 'Ich habe Hunger.' or 'Ich bin hungrig.'",
+      "'Ich habe hungrig.' is not correct. Use 'Ich habe Hunger.' or 'Ich bin hungrig.'"
+    ]
+  },
+  {
+    "question": "Which of these sentences use the correct word order for a yes/no question in German? (Select all that apply)",
+    "answers": [
+      "Hast du einen Hund?",
+      "Du hast einen Hund?",
+      "Hat sie Geschwister?",
+      "Sie hat Geschwister?"
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Hast du ...?' is the correct word order for a yes/no question.",
+      "'Du hast ...?' is a statement, not a question.",
+      "Correct! 'Hat sie ...?' is the correct word order for a yes/no question.",
+      "'Sie hat ...?' is a statement, not a question."
+    ],
+    "feedbackCorrect": "Well done! You identified the correct word order for yes/no questions in German.",
+    "feedbackWrong": "Not quite. Only two sentences use the correct word order. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Du hast ...?' is not a question. The verb should come first.",
+      null,
+      "'Sie hat ...?' is not a question. The verb should come first."
+    ]
+  }
+,
+  {
+    "question": "Which of these sentences correctly uses 'nicht' (not) to negate the verb? (Select all that apply)",
+    "answers": [
+      "Ich spreche nicht Deutsch.",
+      "Ich nicht spreche Deutsch.",
+      "Ich spreche Deutsch nicht.",
+      "Nicht ich spreche Deutsch."
+    ],
+    "correct": [0],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich spreche nicht Deutsch.' is the correct word order for negating the verb.",
+      "'Ich nicht spreche Deutsch.' is incorrect. 'Nicht' comes after the verb.",
+      "'Ich spreche Deutsch nicht.' is incorrect for negating the verb; it can be used to negate the object, but is not standard.",
+      "'Nicht ich spreche Deutsch.' is not correct word order."
+    ],
+    "feedbackCorrect": "Well done! Only 'Ich spreche nicht Deutsch.' correctly negates the verb.",
+    "feedbackWrong": "Not quite. Only one sentence uses 'nicht' correctly to negate the verb. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich nicht spreche Deutsch.' is not correct. Use 'Ich spreche nicht Deutsch.'",
+      "'Ich spreche Deutsch nicht.' is not standard for verb negation.",
+      "'Nicht ich spreche Deutsch.' is not correct word order."
+    ]
+  },
+  {
+    "question": "Which of these sentences correctly uses a separable prefix verb in the present tense? (Select all that apply)",
+    "answers": [
+      "Ich stehe jeden Morgen um 7 Uhr auf.",
+      "Ich aufstehe jeden Morgen um 7 Uhr.",
+      "Er ruft seine Freundin an.",
+      "Er anruft seine Freundin."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich stehe ... auf.' is the correct word order for a separable verb.",
+      "'Ich aufstehe ...' is incorrect word order.",
+      "Correct! 'Er ruft ... an.' is the correct word order for a separable verb.",
+      "'Er anruft ...' is incorrect word order."
+    ],
+    "feedbackCorrect": "Well done! You recognized the correct use of separable prefix verbs in German.",
+    "feedbackWrong": "Not quite. Only two sentences use separable prefix verbs correctly. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich aufstehe ...' is not correct. The verb should be split.",
+      null,
+      "'Er anruft ...' is not correct. The verb should be split."
+    ]
+  },
+  {
+    "question": "Which of these sentences correctly uses a separable prefix verb in the present tense? (Select all that apply)",
+    "answers": [
+      "Ich stehe jeden Morgen um 7 Uhr auf.",
+      "Ich aufstehe jeden Morgen um 7 Uhr.",
+      "Er ruft seine Freundin an.",
+      "Er anruft seine Freundin."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich stehe ... auf.' is the correct word order for a separable verb.",
+      "'Ich aufstehe ...' is incorrect word order.",
+      "Correct! 'Er ruft ... an.' is the correct word order for a separable verb.",
+      "'Er anruft ...' is incorrect word order."
+    ],
+    "feedbackCorrect": "Well done! You recognized the correct use of separable prefix verbs in German.",
+    "feedbackWrong": "Not quite. Only two sentences use separable prefix verbs correctly. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich aufstehe ...' is not correct. The verb should be split.",
+      null,
+      "'Er anruft ...' is not correct. The verb should be split."
+    ]
+  }
+  ,
+  {
+    "question": "Which of these sentences correctly uses a modal verb with the main verb at the end? (Select all that apply)",
+    "answers": [
+      "Ich kann Deutsch sprechen.",
+      "Ich sprechen kann Deutsch.",
+      "Kann ich Deutsch sprechen?",
+      "Ich kann sprechen Deutsch."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich kann Deutsch sprechen.' uses the modal verb and places the main verb at the end.",
+      "'Ich sprechen kann Deutsch.' is incorrect word order.",
+      "Correct! 'Kann ich Deutsch sprechen?' is a correct question form with the main verb at the end.",
+      "'Ich kann sprechen Deutsch.' is not correct word order."
+    ],
+    "feedbackCorrect": "Well done! Both 'Ich kann Deutsch sprechen.' and 'Kann ich Deutsch sprechen?' use the correct word order with modal verbs.",
+    "feedbackWrong": "Not quite. Only two sentences use the correct word order with modal verbs. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich sprechen kann Deutsch.' is not correct. The modal verb comes before the main verb at the end.",
+      null,
+      "'Ich kann sprechen Deutsch.' is not correct. The main verb should be at the end."
+    ]
+  },
+  {
+    "question": "Which of these sentences uses the correct adjective ending for 'ein' in the accusative case? (Select all that apply)",
+    "answers": [
+      "Ich habe einen roten Apfel.",
+      "Ich habe ein roter Apfel.",
+      "Ich habe eine rote Banane.",
+      "Ich habe einen rote Apfel."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! 'Ich habe einen roten Apfel.' uses the correct adjective ending for masculine accusative.",
+      "'Ich habe ein roter Apfel.' is incorrect. It should be 'einen roten Apfel.'",
+      "Correct! 'Ich habe eine rote Banane.' uses the correct adjective ending for feminine accusative.",
+      "'Ich habe einen rote Apfel.' is incorrect. The adjective should be 'roten'."
+    ],
+    "feedbackCorrect": "Great! Both 'Ich habe einen roten Apfel.' and 'Ich habe eine rote Banane.' use the correct adjective endings.",
+    "feedbackWrong": "Not quite. Only two sentences use the correct adjective endings. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Ich habe ein roter Apfel.' is not correct. Use 'einen roten Apfel.'",
+      null,
+      "'Ich habe einen rote Apfel.' is not correct. Use 'roten' for the adjective."
+    ]
+  },
+  {
+    "question": "Which of these sentences correctly uses 'weil' (because) with the verb at the end? (Select all that apply)",
+    "answers": [
+      "Ich bleibe zu Hause, weil ich krank bin.",
+      "Ich bleibe zu Hause, weil ich bin krank.",
+      "Weil ich krank bin, bleibe ich zu Hause.",
+      "Weil ich bin krank, bleibe ich zu Hause."
+    ],
+    "correct": [0,2],
+    "difficulty": "expert",
+    "feedbackCorrectOptions": [
+      "Correct! '..., weil ich krank bin.' puts the verb at the end of the clause.",
+      "'..., weil ich bin krank.' is incorrect. The verb should be at the end.",
+      "Correct! 'Weil ich krank bin, ...' is also correct with the verb at the end.",
+      "'Weil ich bin krank, ...' is not correct. The verb should be at the end."
+    ],
+    "feedbackCorrect": "Well done! Both sentences use 'weil' with the verb at the end of the clause.",
+    "feedbackWrong": "Not quite. Only two sentences use 'weil' with the correct word order. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'..., weil ich bin krank.' is not correct. Use 'weil ich krank bin.'",
+      null,
+      "'Weil ich bin krank, ...' is not correct. Use 'weil ich krank bin, ...'"
+    ]
+
+  },
+  {
+    "question": "What is the correct plural form of 'das Buch'?",
+    "answers": ["die Bücher", "die Buchs", "die Büche", "die Bücheren"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! The plural of 'das Buch' is 'die Bücher'. The umlaut changes and '-er' is added.",
+    "feedbackWrong": "Not quite. Remember, many German plurals add an umlaut and '-er'. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'die Buchs' is not a valid plural form in German.",
+      "'die Büche' is not the correct plural. Watch the ending!",
+      "'die Bücheren' is not a standard plural ending."
+    ]
+  },
+  {
+    "question": "Which sentence uses the correct adjective ending in the nominative case?",
+    "answers": [
+      "Der rote Apfel ist lecker.",
+      "Der roten Apfel ist lecker.",
+      "Der rot Apfel ist lecker.",
+      "Der roter Apfel ist lecker."
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Well done! 'Der rote Apfel' uses the correct adjective ending for masculine nominative.",
+    "feedbackWrong": "Not quite. The adjective ending must match the gender and case. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'Der roten Apfel' is incorrect. 'Roten' is not nominative masculine.",
+      "'Der rot Apfel' is missing the adjective ending.",
+      "'Der roter Apfel' is not the correct ending for this case."
+    ]
+  },
+  {
+    "question": "Where does the verb go in a simple German main clause?",
+    "answers": [
+      "Second position",
+      "First position",
+      "Last position",
+      "It can be anywhere"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! In German main clauses, the verb is in the second position.",
+    "feedbackWrong": "Not quite. Think about the typical word order in German statements.",
+    "feedbackWrongOptions": [
+      null,
+      "The verb is not usually first in main clauses (except in yes/no questions).",
+      "The verb is last in subordinate clauses, not main clauses.",
+      "German word order is strict about verb position."
+    ]
+  },
+  {
+    "question": "Which preposition always takes the accusative case?",
+    "answers": ["durch", "mit", "bei", "aus"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'durch' always takes the accusative case.",
+    "feedbackWrong": "Not quite. Only one of these is an accusative preposition. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "'mit' takes the dative case.",
+      "'bei' takes the dative case.",
+      "'aus' takes the dative case."
+    ]
+  },
+  {
+    "question": "What is the correct definite article for 'Mädchen'?",
+    "answers": ["der", "die", "das", "den"],
+    "correct": 2,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'das Mädchen' is neuter, even though it refers to a girl.",
+    "feedbackWrong": "Not quite. Remember, nouns ending in '-chen' are always neuter.",
+    "feedbackWrongOptions": [
+      "'der' is masculine. 'Mädchen' is neuter.",
+      "'die' is feminine, but 'Mädchen' is neuter.",
+      null,
+      "'den' is accusative masculine."
+    ]
+  },
+  {
+    "question": "Which is the correct accusative pronoun for 'ich'?",
+    "answers": ["mich", "mir", "dich", "ihn"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'ich' becomes 'mich' in the accusative case.",
+    "feedbackWrong": "Not quite. Think about the object form of 'ich'.",
+    "feedbackWrongOptions": [
+      null,
+      "'mir' is dative, not accusative.",
+      "'dich' is the accusative of 'du'.",
+      "'ihn' is the accusative of 'er'."
+    ]
+  },
+  {
+    "question": "What is the comparative form of 'schnell'?",
+    "answers": ["schneller", "am schnellsten", "schnellste", "schnelleren"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! The comparative of 'schnell' is 'schneller'.",
+    "feedbackWrong": "Not quite. The comparative form usually adds '-er'.",
+    "feedbackWrongOptions": [
+      null,
+      "'am schnellsten' is the superlative form.",
+      "'schnellste' is not the comparative form.",
+      "'schnelleren' is not a standard comparative."
+    ]
+  },
+  {
+    "question": "Where does the time expression go in a German sentence? (e.g., 'am Montag')",
+    "answers": [
+      "After the verb, before the object",
+      "At the end of the sentence",
+      "Before the subject",
+      "It can go anywhere"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! The typical order is: subject – verb – time – manner – place – object.",
+    "feedbackWrong": "Not quite. German word order is quite structured. Try again!",
+    "feedbackWrongOptions": [
+      null,
+      "Time expressions usually do not go at the end unless they are the last element.",
+      "Time expressions rarely go before the subject.",
+      "German word order is not that flexible."
+    ]
+  },
+  {
+    "question": "Which is the correct present tense form of 'sehen' for 'er'?",
+    "answers": ["sieht", "seht", "sehen", "siehst"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'er sieht' is the correct present tense form.",
+    "feedbackWrong": "Not quite. Remember, 'sehen' is irregular in the 'du' and 'er/sie/es' forms.",
+    "feedbackWrongOptions": [
+      null,
+      "'seht' is for 'ihr'.",
+      "'sehen' is for 'wir' or 'sie/Sie'.",
+      "'siehst' is for 'du'."
+    ]
+  },
+  {
+    "question": "Which possessive pronoun correctly completes the sentence: 'Das ist ___ Hund.' (for 'sie')",
+    "answers": ["ihr", "sein", "mein", "euer"],
+    "correct": 0,
+    "difficulty": "hard",
+    "feedbackCorrect": "Correct! 'ihr Hund' means 'her dog'.",
+    "feedbackWrong": "Not quite. Think about the possessive for 'sie' (she).",
+    "feedbackWrongOptions": [
+      null,
+      "'sein' means 'his'.",
+      "'mein' means 'my'.",
+      "'euer' means 'your' (plural)."
+    ]
+  }
+]
