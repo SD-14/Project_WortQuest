@@ -94,7 +94,6 @@ export class Battle extends Observer {
       const isCorrect = correctArr.includes(selected);
       // Handle staged feedback for multi-answer questions
       if (this._stagedFeedback.awaitingSummary && isMulti) {
-        // Show all correct answers and summary, then advance
         playerUI.highlightMultipleCorrect(correctArr);
         await Delay.delay(500);
         await enemyUI.writeText(this._currentQuestion.feedbackCorrect || "Richtig! Gut gemacht.");
@@ -104,10 +103,18 @@ export class Battle extends Observer {
         await Delay.delay(500);
         playerUI.hide();
         await Delay.delay(500);
+        // End battle immediately if enemy HP is zero
+        if (enemyHP.isDead) {
+          const { winningMessage, onWin } = this._selectedQuestionData;
+          await enemyUI.writeText(winningMessage);
+          await Delay.delay(500);
+          const { name, action } = onWin;
+          this._taskQueue.addTask(new Task(name, action));
+          this._taskQueue.addTask(new Task('battle-end', false));
+          return;
+        }
         this._currentQuestion = this._currentQuestions.shift();
-        // Reset staged feedback state to prevent infinite loop
         this._stagedFeedback = { awaiting: false, correctIndexes: [], justAnswered: false, awaitingSummary: false };
-        // If there is a next question, update UI and re-enable input
         if (this._currentQuestion) {
           playerUI.resetSelection();
           playerUI.setAnswers(this._currentQuestion.answers);
@@ -118,17 +125,14 @@ export class Battle extends Observer {
         }
         return;
       } else if (isCorrect && isMulti) {
-        // If this correct answer hasn't been selected before
         if (!this._stagedFeedback.correctIndexes.includes(selected)) {
           this._stagedFeedback.correctIndexes.push(selected);
         }
         playerUI.setCorrect();
         await Delay.delay(500);
-        // Show option-specific feedback
         const feedback = this._currentQuestion.feedbackCorrectOptions?.[selected] || this._currentQuestion.feedbackCorrect || "Richtig! Gut gemacht.";
         await enemyUI.writeText(feedback);
         await Delay.delay(1200);
-        // After showing feedback for this option, set flag to show summary on next input
         this._stagedFeedback.awaitingSummary = true;
         this._taskQueue.addTask(new Task('enable-input'));
         return;
@@ -142,11 +146,20 @@ export class Battle extends Observer {
         await Delay.delay(500);
         playerUI.hide();
         await Delay.delay(500);
+        // End battle immediately if enemy HP is zero
+        if (enemyHP.isDead) {
+          const { winningMessage, onWin } = this._selectedQuestionData;
+          await enemyUI.writeText(winningMessage);
+          await Delay.delay(500);
+          const { name, action } = onWin;
+          this._taskQueue.addTask(new Task(name, action));
+          this._taskQueue.addTask(new Task('battle-end', false));
+          return;
+        }
         this._currentQuestion = this._currentQuestions.shift();
       } else {
         playerUI.setWrong();
         await Delay.delay(500);
-        // Option-specific feedback
         const feedback = this._currentQuestion.feedbackWrongOptions?.[selected]
           || this._currentQuestion.feedbackWrong
           || "Nicht ganz. Versuch es noch einmal!";
@@ -155,8 +168,19 @@ export class Battle extends Observer {
         playerHP.damage();
         await playerFighter.damage();
         await Delay.delay(500);
+        // End battle immediately if player HP is zero
+        if (playerHP.isDead) {
+          const { losingMessage, onLoss } = this._selectedQuestionData;
+          await enemyUI.writeText(losingMessage);
+          await Delay.delay(500);
+          const { name, action } = onLoss;
+          if (name || action) this._taskQueue.addTask(new Task(name, action));
+          this._taskQueue.addTask(new Task('battle-end', true));
+          return;
+        }
         // Do NOT advance question, let player try again
       }
+      // If either HP is dead (should be unreachable, but safe)
       if (playerHP.isDead || enemyHP.isDead) {
         const { winningMessage, losingMessage, onWin, onLoss } = this._selectedQuestionData;
         const message = playerHP.isDead ? losingMessage : winningMessage;
@@ -179,7 +203,6 @@ export class Battle extends Observer {
       playerUI.show();
       this._taskQueue.addTask(new Task('enable-input'));
     } else {
-      // Defensive: only call if method exists
       const fn = (this._battleComponents.playerUI as any)[action];
       if (typeof fn === 'function') fn.call(this._battleComponents.playerUI);
     }

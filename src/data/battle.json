@@ -1,8 +1,8 @@
 {
   "home": {
-      "Clara": {
-        "name": "Clara",
-        "sprite": "Clara",
+      "Chi":{
+        "name": "Chi",
+        "sprite": "Chi",
         "title": "TA",
         "openingMessage": "Bereit für ein deutsches Sprachduell? Zeig, was du gelernt hast!",
         "level": 45,
@@ -14,7 +14,7 @@
         "onWin": {
           "name": "npc-battle-end",
           "action": {
-            "name": "Clara",
+            "name": "Chi",
             "level": "home"
           }
         },
@@ -28,7 +28,7 @@
       "Dane": {
         "name": "Dane",
         "sprite": "Dane",
-        "title": "DEVELOPER",
+        "title": "INSTRUCTOR",
         "openingMessage": "Nur wer Deutsch spricht, kann diesen Kampf gewinnen! Viel Glück!",
         "level": 45,
         "arena": "grass",
@@ -102,19 +102,19 @@
         }
       },
       "questions": [],
-      "questionDifficulties": ["easy"]
+      "questionDifficulties": ["medium"]
     }
   },
   "gymArena2PreBattle": {
-    "Cody": {
-      "name": "Cody",
-      "sprite": "Cody",
+    "Brock":{
+      "name": "Brock",
+      "sprite": "Brock",
       "title": "INSTRUCTOR",
       "openingMessage": "Zeig mir, wie gut du Deutsch verstehst! Viel Erfolg!",
       "level": 45,
       "arena": "grass",
-      "damageToEnemy": 20,
-      "damageToPlayer": 25,
+      "damageToEnemy": 25,
+      "damageToPlayer": 20,
       "losingMessage": "Noch ein bisschen üben, dann schaffst du es!",
       "winningMessage": "Fantastisch! Du bist ein Deutsch-Profi!",
       "onWin": {
@@ -157,13 +157,13 @@
       },
       "questions": [
       ],
-      "questionDifficulties": ["medium", "hard"]
+      "questionDifficulties": ["medium"]
     }
   },
   "gymArena3PreBattle": {
-    "Scott": {
-      "name": "Scott",
-      "sprite": "Scott",
+    "Min": {
+      "name": "Min",
+      "sprite": "Min",
       "title": "INSTRUCTOR",
       "openingMessage": "Kannst du die schwierigeren Deutschfragen meistern? Los geht's!",
       "level": 45,
@@ -212,13 +212,13 @@
       },
       "questions": [
       ],
-      "questionDifficulties": ["medium", "hard"]
+      "questionDifficulties": ["hard"]
     }
   },
   "gymArena4PreBattle": {
-    "Tim H": {
-      "name": "Tim H",
-      "sprite": "TimH",
+    "Blaine":{
+      "name": "Blaine",
+      "sprite": "Blaine",
       "title": "INSTRUCTOR",
       "openingMessage": "Jetzt wird es ernst: Deutsch für Fortgeschrittene!",
       "level": 45,
@@ -267,7 +267,7 @@
       },
       "questions": [
       ],
-      "questionDifficulties": ["medium", "hard"]
+      "questionDifficulties": ["hard"]
     }
   },
   "gymArena4PostBattle": {
@@ -283,15 +283,15 @@
     }
   },
   "gymArena5PreBattle": {
-    "Min": {
-      "name": "Min",
-      "sprite": "Min",
-      "title": "INSTRUCTOR",
+    "Tomo":{
+      "name": "Tomo",
+      "sprite": "Tomo",
+      "title": "PROFESSOR",
       "openingMessage": "Nur die Besten bestehen diese Deutschprüfung! Viel Glück!",
       "level": 45,
       "arena": "normal",
-      "damageToEnemy": 17,
-      "damageToPlayer": 33,
+      "damageToEnemy": 15,
+      "damageToPlayer": 35,
       "losingMessage": "Das war knapp! Übe noch ein wenig Deutsch.",
       "winningMessage": "Du bist ein wahrer Deutsch-Champion!",
       "onWin": {
@@ -334,7 +334,7 @@
       },
       "questions": [
       ],
-      "questionDifficulties": ["medium", "hard"]
+      "questionDifficulties": ["expert"]
     }
   },
   "gymArena6": {
@@ -345,8 +345,8 @@
       "openingMessage": "Das letzte Duell! Zeig deine besten Deutschkenntnisse!",
       "level": 45,
       "arena": "normal",
-      "damageToEnemy": 17,
-      "damageToPlayer": 33,
+      "damageToEnemy": 15,
+      "damageToPlayer": 35,
       "losingMessage": "Du hast viel gelernt. Versuch es noch einmal!",
       "winningMessage": "Du hast alle Deutsch-Battles gewonnen! Glückwunsch!",
       "onWin": {
@@ -377,7 +377,7 @@
       },
       "questions": [
       ],
-      "questionDifficulties": ["medium", "hard"]
+      "questionDifficulties": ["expert"]
     }
   }
 }

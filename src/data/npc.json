@@ -11,7 +11,7 @@
       "facingPosition": "up"
     },
     {
-      "name": "Clara",
+      "name": "Chi",
       "path": "./assets/images/players/npc-sarah.png",
       "startingPosition": {
         "x": 16,
@@ -54,7 +54,7 @@
   ],
   "gymEntrance": [
     {
-      "name": "Cassandra",
+      "name": "Meenakshi",
       "path": "./assets/images/players/npc-brunette-girl.png",
       "startingPosition": {
         "x": 0,
@@ -78,7 +78,7 @@
   ],
   "gymArena2PreBattle": [
     {
-      "name": "Cody",
+      "name": "Brock",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -90,7 +90,7 @@
   ],
   "gymArena3PreBattle": [
     {
-      "name": "Scott",
+      "name": "Min",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -105,7 +105,7 @@
   ],
   "gymArena4PreBattle": [
     {
-      "name": "Tim H",
+      "name": "Blaine",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -120,7 +120,7 @@
   ],
   "gymArena5PreBattle": [
     {
-      "name": "Min",
+      "name": "Tomo",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -147,7 +147,7 @@
   ],
   "gymArena2PostBattle": [
     {
-      "name": "Cody",
+      "name": "Brock",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -162,7 +162,7 @@
   ],
   "gymArena3PostBattle": [
     {
-      "name": "Scott",
+      "name": "Min",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -177,7 +177,7 @@
   ],
   "gymArena4PostBattle": [
     {
-      "name": "Tim H",
+      "name": "Blaine",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,
@@ -192,7 +192,7 @@
   ],
   "gymArena5PostBattle": [
     {
-      "name": "Min",
+      "name": "Tomo",
       "path": "./assets/images/players/npc-professor.png",
       "startingPosition": {
         "x": 6,

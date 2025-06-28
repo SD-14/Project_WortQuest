@@ -10,7 +10,7 @@
       ],
       "postBattle": null
     },
-    "Clara": {
+    "Chi":{
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Hello!" },
@@ -18,7 +18,7 @@
         { "isTrigger": false, "text": "The students are practicing vocabulary, so I'm taking a break." },
         { "isTrigger": false, "text": "Are you learning German too?" },
         { "isTrigger": false, "text": "Let's see how good you are!" },
-        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Clara" } }
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Chi" } }
       ],
       "postBattle": [
         { "isTrigger": false, "text": "Wow, you have a good feel for languages!" },
@@ -59,7 +59,7 @@
     }
   },
   "gymEntrance": {
-    "Cassandra": {
+    "Meenakshi": {
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Hello! Welcome to the German Language Center." },
@@ -90,7 +90,7 @@
       "preBattle": [
         { "isTrigger": false, "text": "Your vocabulary is impressive!" },
         { "isTrigger": false, "text": "But German is more than just words." },
-        { "isTrigger": false, "text": "Cody is waiting for you in the next room." },
+        { "isTrigger": false, "text": "Brock is waiting for you in the next room."},
         { "isTrigger": false, "text": "Good luck!" },
         { "isTrigger": true, "type": "npc-interaction-end" }
       ],
@@ -98,49 +98,49 @@
     }
   },
   "gymArena2PreBattle": {
-    "Cody": {
+    "Brock":{
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "-drinks coffee-..." },
         { "isTrigger": false, "text": "Welcome! I am the second language master." },
         { "isTrigger": false, "text": "Now it's about German phrases and grammar." },
         { "isTrigger": false, "text": "Are you ready for the next round?" },
-        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Cody" } }
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Brock" } }
       ],
       "postBattle": null
     }
   },
   "gymArena2PostBattle": {
-    "Cody": {
+    "Brock":{
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "You have mastered the phrases!" },
         { "isTrigger": false, "text": "Don't forget: Practice makes perfect." },
-        { "isTrigger": false, "text": "Scott is already waiting for you." },
+        { "isTrigger": false, "text": "Min is already waiting for you." },
         { "isTrigger": true, "type": "npc-interaction-end" }
       ],
       "postBattle": null
     }
   },
   "gymArena3PreBattle": {
-    "Scott": {
+    "Min": {
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "-takes a deep breath-..." },
         { "isTrigger": false, "text": "Ready for advanced German questions?" },
         { "isTrigger": false, "text": "I am the third language master." },
         { "isTrigger": false, "text": "Now it gets tricky!" },
-        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Scott" } }
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Min" } }
       ],
       "postBattle": null
     }
   },
   "gymArena3PostBattle": {
-    "Scott": {
+    "Min": {
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Very good! You are ready for the next level." },
-        { "isTrigger": false, "text": "Tim H. is waiting in the next room." },
+        { "isTrigger": false, "text": "Blaine is waiting in the next room." },
         { "isTrigger": false, "text": "Good luck!" },
         { "isTrigger": true, "type": "npc-interaction-end" }
       ],
@@ -148,19 +148,19 @@
     }
   },
   "gymArena4PreBattle": {
-    "Tim H": {
+    "Blaine":{
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Welcome to the expert round!" },
         { "isTrigger": false, "text": "I will ask you challenging German questions." },
         { "isTrigger": false, "text": "Are you ready?" },
-        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Tim H" } }
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Blaine"} }
       ],
       "postBattle": null
     }
   },
   "gymArena4PostBattle": {
-    "Tim H": {
+    "Blaine":{
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Fantastic! You passed the expert round." },
@@ -171,19 +171,19 @@
     }
   },
   "gymArena5PreBattle": {
-    "Min": {
+    "Tomo": {
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Congratulations, you are almost at the finish line!" },
         { "isTrigger": false, "text": "I am the last language master." },
         { "isTrigger": false, "text": "Only the best pass this test." },
-        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Min" } }
+        { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Tomo" } }
       ],
       "postBattle": null
     }
   },
   "gymArena5PostBattle": {
-    "Min": {
+    "Tomo": {
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "You did it!" },
@@ -199,9 +199,9 @@
       "hasBattled": false,
       "preBattle": [
         { "isTrigger": false, "text": "Wow! You made it to the end." },
-        { "isTrigger": false, "text": "I am Shashank, the creator of this language adventure." },
+        { "isTrigger": false, "text": "I am Shashank, and together with my team who you had to overcome throughout your journey are responsible for building this language adventure."},
         { "isTrigger": false, "text": "What you experienced here is like my own learning journey." },
-        { "isTrigger": false, "text": "But now, the final German duel awaits you!" },
+        { "isTrigger": false, "text": "Kudos on making it so far! But don't celebrate just yet, because now the final German duel awaits you"},
         { "isTrigger": true, "type": "battle-start", "action": { "fighter": "Shashank" } }
       ],
       "postBattle": [
