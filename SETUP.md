@@ -30,10 +30,15 @@ It should output `v16.20.2`.
 git clone https://github.com/SD-14/Project_WortQuest.git
 cd Project_WortQuest
 ```
-## 3. Install Dependencies
+## 3. Install Dependencies & Set Environment Variable
 
 ```
 npm install
+```
+The build uses Webpack v4.x and due to OpenSSL defaults, you would have to explicitly enable legacy OpenSSL for this version. To enable this, make sure to run:
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
 ## 4. Run the Development Server
