@@ -2,6 +2,10 @@
 
 A browser-based RPG where you explore, interact with characters, and answer questions to practice and learn German vocabulary, grammar, and phrases.
 
+<p align="center">
+  <img src="./dist/assets/images/teaser.gif" width="800"/>
+</p>
+
 ## Features
 
 - Explore a pixel-art world inspired by classic RPGs
