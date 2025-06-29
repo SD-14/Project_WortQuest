@@ -1,6 +1,6 @@
 # WortQuest:Learn German Through Adventure
 
-A browser-based RPG where you explore, interact with characters, and answer questions to practice and learn German vocabulary, grammar, and phrases. Built with TypeScript.
+A browser-based RPG where you explore, interact with characters, and answer questions to practice and learn German vocabulary, grammar, and phrases.
 
 ## Features
 
@@ -50,10 +50,6 @@ For installation and local development instructions, see [SETUP.md](./SETUP.md).
 
 <p align="center">
   <img src="./dist/assets/images/npc-chat-1.png">
-</p>
-
-<p align="center">
-  <img src="./dist/assets/images/battle.png">
 </p>
 
 <p align="center">
