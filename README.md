@@ -32,6 +32,12 @@ Pokémon and All Respective Names, Images are Trademark &copy; of Nintendo 1996 
 - TypeScript
 - Webpack
 
+## Features
+
+- User can walk around the map and interact with NPCs
+- Upon interaction with certain NPCs may trigger a battle
+- Gym/Language school setup for user to test their knowledge against instructors and professor(s)
+
 ## Setup
 
 For installation and local development instructions, see [SETUP.md](./SETUP.md).
