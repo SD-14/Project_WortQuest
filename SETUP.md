@@ -4,18 +4,25 @@ This guide will help you clone, install, and run this project locally on your ma
 
 ## 1. Prerequisites
 - **PC/Laptop** (as of now*)
-- **Node.js**
+- **Node.js (Gallium)-v16.20.2** (required; newer versions like v24.x are not supported)
 - **npm** (comes with Node.js)
 - **git**
 
 > **Works on Linux and macOS.**
 > On Windows, use [WSL](https://docs.microsoft.com/en-us/windows/wsl/) for best compatibility.
 
-If you do not have Node.js and npm installed, you can install them on Linux/macOS with:
+If you do not have Node.js Gallium(v16.20.2) and npm installed, you can install them on Linux/macOS with:
 
 ```
-sudo apt-get install nodejs npm
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
+
+Verify your Node.js version with:
+```
+node -v
+```
+It should output `v16.20.2`.
 
 ## 2. Clone the Repository
 

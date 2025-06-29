@@ -12,7 +12,7 @@ A browser-based RPG where you explore, interact with characters, and answer ques
 - Interact with NPCs who help you learn German
 - Battle using your knowledge of German vocabulary and grammar
 - Visual feedback for correct/incorrect answers
-- Take on a fierce challenge and power your way through be crowned as the **<u>Deutschmeister</u>**
+- Take on a fierce challenge and power your way through to be crowned as the **<u>Deutschmeister</u>**
 
 ## How to Play
 
