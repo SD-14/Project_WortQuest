@@ -39,19 +39,19 @@ For installation and local development instructions, see [SETUP.md](./SETUP.md).
 ## In-Game Screenshots
 
 <p align="center">
-  <img src="./assets/images/npc-chat.png">
+  <img src="./dist/assets/images/npc-chat.png">
 </p>
 
 <p align="center">
-  <img src="./assets/images/npc-chat-1.png">
+  <img src="./dist/assets/images/npc-chat-1.png">
 </p>
 
 <p align="center">
-  <img src="./assets/images/battle.png">
+  <img src="./dist/assets/images/battle.png">
 </p>
 
 <p align="center">
-  <img src="./assets/images/battle-1.png">
+  <img src="./dist/assets/images/battle-1.png">
 </p>
 
 ---
