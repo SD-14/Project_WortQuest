@@ -40,7 +40,7 @@ Pokémon and All Respective Names, Images are Trademark &copy; of Nintendo 1996 
 
 ## Setup
 
-For installation and local development instructions, see [SETUP.md](./SETUP.md).
+For installation and local development instructions, check [SETUP.md](./SETUP.md).
 
 ## In-Game Screenshots
 
