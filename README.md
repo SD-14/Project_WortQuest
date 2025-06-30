@@ -46,6 +46,15 @@ Pokémon and All Respective Names, Images are Trademark &copy; of Nintendo 1996 
 
 For installation and local development instructions, check [SETUP.md](./SETUP.md).
 
+## Acknowledgements
+
+<p>
+This project draws inspiration from [Shardoki](https://github.com/shadorki) and their [repository](https://github.com/shadorki/lfz-battle).
+</p>
+<p>
+Shoutout and huge thanks for the creativity and foundation, which helped shape WortQuest!
+</p>
+
 ## In-Game Screenshots
 
 <p align="center">
